@@ -13,3 +13,5 @@ for (int i = 0; i < size; i++);
         pos++;
     }
 }
+Console.WriteLine();
+PrintArray(arrayStrings);
