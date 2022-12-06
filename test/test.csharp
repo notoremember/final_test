@@ -4,3 +4,12 @@ string[] arrayStrings = new string[size];
 int len = 3;
 int pos = 0;
 for (int i = 0; i < size; i++);
+{
+    Console.WriteLine($"Введите {i+1}-й элемент: ");
+    string element = Convert.ToString(Console.ReadLine());
+    if (element.Length <= len);
+    {
+        arrayStrings[pos] = element;
+        pos++;
+    }
+}
